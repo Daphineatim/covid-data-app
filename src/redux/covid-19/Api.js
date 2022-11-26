@@ -12,11 +12,8 @@ const getDataAPI = () => async (dispatch) => {
   });
 };
 export const getCountryData = (countryName) => (dispatch) => {
-  // const today = new Date();
-  // const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
   API1.get(`${countryName}/status/confirmed`).then((res) => {
     const incomming = res.data[1000];
-    // const data = Object.values(incomming)[0].countries;
     dispatch(fetchcountrydata(incomming));
   }).catch(() => {
     dispatch(fetchdataerror());

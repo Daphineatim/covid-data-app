@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for List of each Country Country List Item Renders correctly:  1`] = `
+<div
+  className="country"
+>
+  <div
+    className="summary"
+  >
+    <a
+      className=""
+      href="/Details"
+      id="Ethiopia"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-circle-arrow-right arrow-right"
+        data-icon="circle-arrow-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <img
+        alt="COVID-19"
+        className="covid-icn"
+        src="covid.png"
+      />
+      <p
+        className="country-name"
+      >
+        Ethiopia
+      </p>
+      <p
+        className="total-confirmed"
+      >
+        10000
+      </p>
+    </a>
+  </div>
+</div>
+`;

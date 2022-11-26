@@ -6,11 +6,9 @@ import { getCountryData } from '../../redux/covid-19/Api';
 import { detailStart } from '../../redux/covid-19/actions';
 import './Details.css';
 
-// const axios = require('axios');
+// const axios = { axios };
 
 const Details = () => {
-  // const [flag, setFlag] = useState();
-  // let data = [];
   const location = useLocation();
   const { country } = location.state;
   const dispatch = useDispatch();
