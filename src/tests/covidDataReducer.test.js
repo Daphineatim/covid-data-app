@@ -3,16 +3,16 @@ import covidDataReducer from '../redux/covid-19/reducer';
 const mockData = [{
   Country: 'Afghanistan',
   CountryCode: 'AF',
-  Cases : '201503',
+  Cases: '201503',
   Date: '2022-10-18T00:00:00Z',
   Lat: '33.94',
   Lon: '67.71',
   Status: 'confirmed',
-  }, {
+}, {
   Country: 'Albania',
   CountryCode: 'AL',
-  Cases : '332673',
-  Date : '2022-10-18T00:00:00Z',
+  Cases: '332673',
+  Date: '2022-10-18T00:00:00Z',
   Lat: '41.15',
   Lon: '20.17',
   Status: 'confirmed',
@@ -23,7 +23,7 @@ const toget = {
 {
   Country: 'Afghanistan',
   CountryCode: 'AF',
-  Cases : '201503',
+  Cases: '201503',
   Date: '2022-10-18T00:00:00Z',
   Lat: '33.94',
   Lon: '67.71',
@@ -32,35 +32,35 @@ const toget = {
 },
   1:
   {
-  Country: 'Albania',
-  CountryCode: 'AL',
-  Cases : '332673',
-  Date : '2022-10-18T00:00:00Z',
-  Lat: '41.15',
-  Lon: '20.17',
-  Status: 'confirmed',
-   
+    Country: 'Albania',
+    CountryCode: 'AL',
+    Cases: '332673',
+    Date: '2022-10-18T00:00:00Z',
+    Lat: '41.15',
+    Lon: '20.17',
+    Status: 'confirmed',
+
   },
   back: false,
   countries: [
     {
       Country: 'Afghanistan',
       CountryCode: 'AF',
-      Cases : '201503',
+      Cases: '201503',
       Date: '2022-10-18T00:00:00Z',
       Lat: '33.94',
       Lon: '67.71',
       Status: 'confirmed',
-      
+
     },
     {
-     Country: 'Albania',
-     CountryCode: 'AL',
-     Cases : '332673',
-     Date : '2022-10-18T00:00:00Z',
-     Lat: '41.15',
-     Lon: '20.17',
-     Status: 'confirmed',
+      Country: 'Albania',
+      CountryCode: 'AL',
+      Cases: '332673',
+      Date: '2022-10-18T00:00:00Z',
+      Lat: '41.15',
+      Lon: '20.17',
+      Status: 'confirmed',
     }],
   loading: false,
 };
