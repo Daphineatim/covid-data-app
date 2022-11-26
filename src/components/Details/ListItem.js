@@ -2,7 +2,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './ListItem.css';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import covid from '../../assets/covid.png';
@@ -22,8 +21,5 @@ const ListItem = ({ countries, TotalConfirmed }) => {
     </div>
   );
 };
-ListItem.propTypes = {
-  countries: PropTypes.string,
-  TotalConfirmed: PropTypes.number,
-};
+
 export default ListItem;

@@ -1,5 +1,5 @@
-import { fetchdata, fetchdataerror, fetchcountrydata } from './actions';
 import axios from 'axios';
+import { fetchdata, fetchdataerror, fetchcountrydata } from './actions';
 
 const API = axios.create({ baseURL: 'https://api.covid19api.com/summary' });
 const API1 = axios.create({ baseURL: 'https://api.covid19api.com/country' });

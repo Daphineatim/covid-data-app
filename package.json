@@ -11,6 +11,7 @@
     "axios": "^1.2.0",
     "deploying": "^1.0.3",
     "eslint-config-airbnb-base": "^15.0.0",
+    "prop-types": "^15.8.1",
     "randomized-string": "^1.2.7",
     "randomstring": "^1.2.3",
     "react": "^18.2.0",
@@ -22,6 +23,7 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-test-renderer": "^18.2.0",
+    "redux": "^4.2.0",
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
