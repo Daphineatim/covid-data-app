@@ -1,0 +1,74 @@
+:root {
+  --search-bg: #1a3871;
+  --white: rgb(254, 254, 254);
+  --lightblue: #1a263c;
+}
+
+.covid-19-pic {
+  width: 50%;
+  height: 40vh;
+}
+
+.loading-animation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35%;
+  width: 220px;
+  border-radius: 300px;
+}
+
+.sort-wrap {
+  background-color: var(--search-bg);
+}
+
+.sort-title {
+  color: var(--white);
+}
+
+.sort-l1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sort {
+  width: 40%;
+}
+
+.error {
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.global-info {
+  align-self: center;
+}
+
+.country:hover {
+  background-color: #5477f6;
+  box-shadow: 2px 2px 2px 2px rgba(175, 223, 127, 0.2);
+}
+
+@media screen and (min-width: 1024px) {
+  .country-list,
+  .header,
+  .sort-wrap {
+    width: 60%;
+    margin: auto;
+  }
+
+  .loading-animation {
+    margin-top: 15%;
+  }
+
+  .flag {
+    width: 40%;
+  }
+}
