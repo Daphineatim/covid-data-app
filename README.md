@@ -49,9 +49,6 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Microverse program
-- My standup team
-- Microverse team
-- My family's support
+- [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2/) Api used.
+- [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) Design idea.
+- [Microverse](https://www.microverse.org/) for the challange.
