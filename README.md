@@ -23,7 +23,7 @@ to run the project locally, clone the project using the command
 `git clone https://github.com/Daphineatim/covid-data-app.git`
 
 ###  Live link
-[live link](https://covid19-capstone.netlify.app)
+[live link](https://deploy-preview-5--stellar-druid-061bd7.netlify.app/)
 
 ### Run test
 
