@@ -2,6 +2,7 @@
   --dark-blue: #1a3871;
   --white: rgb(255, 255, 255);
   --lightblue: #4872c2;
+  --heading: #4369b1;
 }
 
 body {
@@ -14,15 +15,22 @@ body {
   flex-direction: column;
   width: 80%;
   margin: auto;
-  row-gap: 20px;
 }
 
 .covid-data {
   display: flex;
   justify-content: space-between;
-  background-color: var(--dark-blue);
   height: 35px;
   align-items: center;
+  padding: 1rem 1rem;
+}
+
+.covid-data:nth-child(odd) {
+  background-color: var(--dark-blue);
+}
+
+.covid-data:nth-child(even) {
+  background-color: var(--heading);
 }
 
 .flag {
